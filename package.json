@@ -21,7 +21,8 @@
     "start": "ng serve",
     "test": "ng test",
     "lint": "tslint './src/app/**/*.ts'",
-    "build:library": "ng-packagr -p package.json"
+    "build:library": "ng-packagr -p package.json",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
