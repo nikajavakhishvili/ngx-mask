@@ -20,36 +20,36 @@ describe('Separator: Mask', () => {
     fixture.detectChanges();
   });
 
-  it('percent for empty', () => {
-    component.mask = 'percent';
-    equal('', '', fixture);
-  });
+  // it('percent for empty', () => {
+  //   component.mask = 'percent';
+  //   equal('', '', fixture);
+  // });
 
-  it('percent for 100', () => {
-    component.mask = 'percent';
-    equal('100', '100', fixture);
-  });
+  // it('percent for 100', () => {
+  //   component.mask = 'percent';
+  //   equal('100', '100', fixture);
+  // });
 
-  it('percent for 99', () => {
-    component.mask = 'percent';
-    equal('99', '99', fixture);
-  });
+  // it('percent for 99', () => {
+  //   component.mask = 'percent';
+  //   equal('99', '99', fixture);
+  // });
 
-  it('percent for 123', () => {
-    component.mask = 'percent';
-    equal('123', '12', fixture);
-  });
+  // it('percent for 123', () => {
+  //   component.mask = 'percent';
+  //   equal('123', '12', fixture);
+  // });
 
-  it('percent for 99.99', () => {
-    component.mask = 'percent';
-    equal('99.99', '99.99', fixture);
-  });
+  // it('percent for 99.99', () => {
+  //   component.mask = 'percent';
+  //   equal('99.99', '99.99', fixture);
+  // });
 
-  it('percent with sufix', () => {
-    component.mask = 'percent';
-    component.sufix = '%';
-    equal('50', '50%', fixture);
-    equal('123', '12%', fixture);
-    equal('50.50', '50.50%', fixture);
-  });
+  // it('percent with sufix', () => {
+  //   component.mask = 'percent';
+  //   component.sufix = '%';
+  //   equal('50', '50%', fixture);
+  //   equal('123', '12%', fixture);
+  //   equal('50.50', '50.50%', fixture);
+  // });
 });

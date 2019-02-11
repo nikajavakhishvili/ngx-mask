@@ -283,7 +283,7 @@ export class MaskApplierService {
     }
 
     private percentage = (str: string): boolean => {
-        return Number(str) >= 0 && Number(str) <= 100;
+        return Number(str) >= 0 && Number(str) <= 1000;
     }
 
     private getPrecision = (maskExpression: string): number => {
